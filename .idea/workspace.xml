@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aaf8dfe6-ce91-467f-acff-ac004662dbf2" name="Default Changelist" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" afterDir="false" />
@@ -17,6 +18,16 @@
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
 >>>>>>> Added configuration for windows
+=======
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hoc/Auxiliary/Auxiliary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Auxiliary/Auxiliary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
+>>>>>>> Implementing button component
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,34 +93,41 @@
     <session id="1327489494">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
+          <entry key="css" value="1" />
+          <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="41" />
+          <entry key="js" value="350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="41" />
+          <entry key="JavaScript" value="350" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="207">
               <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
 >>>>>>> Added configuration for windows
+=======
+            <state relative-caret-position="299">
+              <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+>>>>>>> Implementing button component
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -118,6 +136,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,19 +147,42 @@
               </folding>
 =======
         <entry file="file://$PROJECT_DIR$/src/components/hoc/Auxiliary/Auxiliary.js">
+=======
+        <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
+>>>>>>> Implementing button component
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="460">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.css">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state>
               <caret column="26" selection-start-column="26" selection-end-column="26" />
 >>>>>>> Added configuration for windows
+=======
+            <state relative-caret-position="529">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+>>>>>>> Implementing button component
             </state>
           </provider>
         </entry>
@@ -183,6 +225,7 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -216,15 +259,22 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Implementing button component
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="150">
 =======
             <state relative-caret-position="207">
 >>>>>>> Added configuration for windows
               <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+=======
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+>>>>>>> Implementing button component
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -255,12 +305,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="JavaScript File" />
         <option value="CSS File" />
 =======
         <option value="CSS File" />
         <option value="JavaScript File" />
 >>>>>>> Added configuration for windows
+=======
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+>>>>>>> Implementing button component
       </list>
     </option>
   </component>
@@ -309,11 +364,16 @@
         <option value="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" />
         <option value="$PROJECT_DIR$/src/components/hoc/Auxiliary.js" />
         <option value="$PROJECT_DIR$/src/components/hoc/Auxiliary/Auxiliary.js" />
-        <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
-        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Layout.js" />
+<<<<<<< HEAD
 >>>>>>> Added configuration for windows
+=======
+        <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
+        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
+        <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
+>>>>>>> Implementing button component
       </list>
     </option>
   </component>
@@ -339,8 +399,8 @@
     <option name="height" value="900" />
 =======
   <component name="ProjectFrameBounds">
-    <option name="x" value="820" />
-    <option name="width" value="1095" />
+    <option name="x" value="978" />
+    <option name="width" value="937" />
     <option name="height" value="1080" />
 >>>>>>> Added configuration for windows
   </component>
@@ -414,7 +474,15 @@
               <item name="burger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="burger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="burger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+              <item name="OrderSummary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="burger" type="b2602c69:ProjectViewProjectNode" />
@@ -443,7 +511,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="Modal" type="462c0819:PsiDirectoryNode" />
+              <item name="Button" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
             <path>
@@ -473,6 +541,7 @@
 =======
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\udemyCourse\my-app\burger\src" />
       <recent name="D:\projects\udemyCourse\my-app\burger\src\components\hoc\Auxiliary" />
       <recent name="D:\projects\udemyCourse\my-app\burger\src\components" />
     </key>
@@ -506,6 +575,7 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23743000" />
   </component>
   <component name="ToolWindowManager">
@@ -516,16 +586,26 @@
   <component name="ToolWindowManager">
     <frame x="820" y="0" width="1095" height="1080" extended-state="0" />
 >>>>>>> Added configuration for windows
+=======
+    <option name="totallyTimeSpent" value="26028000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="978" y="0" width="937" height="1080" extended-state="0" />
+>>>>>>> Implementing button component
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.22048193" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2592242" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3047831" />
+>>>>>>> Implementing button component
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23497854" />
 >>>>>>> Added configuration for windows
@@ -787,6 +867,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -802,23 +883,31 @@
             <element signature="e#0#26#0" expanded="true" />
 =======
     <entry file="file://$PROJECT_DIR$/src/components/hoc/Auxiliary/Auxiliary.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/hoc/Auxiliary/Auxiliary.js">
+>>>>>>> Implementing button component
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
+<<<<<<< HEAD
             <element signature="e#0#41#0" expanded="true" />
 >>>>>>> Added configuration for windows
+=======
+            <element signature="e#0#26#0" expanded="true" />
+>>>>>>> Implementing button component
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -833,11 +922,18 @@
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
 >>>>>>> Added configuration for windows
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+>>>>>>> Implementing button component
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Modal/Modal.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
@@ -847,14 +943,46 @@
 =======
         <state relative-caret-position="23">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+=======
+        <state relative-caret-position="529">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+>>>>>>> Implementing button component
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout/Layout.js">
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="26" selection-start-column="26" selection-end-column="26" />
 >>>>>>> Added configuration for windows
+=======
+        <state relative-caret-position="276">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+>>>>>>> Implementing button component
         </state>
       </provider>
     </entry>
