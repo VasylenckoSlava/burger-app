@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Aux from "../../hoc/Aux";
 import Burger from "../../components/Burger/Burger";
 import BuildControls from "../../components/Burger/BuildControls/BuildControls";
 import Modal from "../../components/UI/Modal/Modal";
 import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
+import Auxiliary from "../../components/hoc/Auxiliary/Auxiliary";
 
 const INGRIDIENT_PRICIES = {
   salad: 0.5,
@@ -94,7 +94,7 @@ class BurgerBuilder extends Component {
       disabledInfo[key] = disabledInfo[key] <= 0;
     }
     return (
-      <Aux>
+      <Auxiliary>
         <Modal show={this.state.purchasing} modalClose={this.purchaseCancelHandler}>
           <OrderSummary ingredients={this.state.ingredients} />
         </Modal>
@@ -107,7 +107,7 @@ class BurgerBuilder extends Component {
           price={this.state.totalPrice}
           ordered={this.purchaseHandler}
         />
-      </Aux>
+      </Auxiliary>
     );
   }
 }

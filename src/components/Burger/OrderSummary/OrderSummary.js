@@ -1,5 +1,5 @@
 import React from "react";
-import Aux from "../../../hoc/Aux";
+import Auxiliary from "../../hoc/Auxiliary/Auxiliary";
 
 const orderSummary = props => {
   const ingredientSummary = Object.keys(props.ingredients).map(igKey => {
@@ -12,14 +12,14 @@ const orderSummary = props => {
     );
   });
   return (
-    <Aux>
+    <Auxiliary>
       <h3>Your order</h3>
       <p>A delicious burger with the following ingredients: </p>
         <ul>
             {ingredientSummary}
         </ul>
         <p>Continue to Checkout?</p>
-    </Aux>
+    </Auxiliary>
   );
 };
 
