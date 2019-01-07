@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="aaf8dfe6-ce91-467f-acff-ac004662dbf2" name="Default Changelist" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,6 +30,9 @@
       <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
 >>>>>>> Implementing button component
     </list>
+=======
+    <list default="true" id="aaf8dfe6-ce91-467f-acff-ac004662dbf2" name="Default Changelist" comment="" />
+>>>>>>> Fix mistakes
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -105,21 +109,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="350" />
+          <entry key="js" value="368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="350" />
+          <entry key="JavaScript" value="368" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="207">
               <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -128,6 +133,10 @@
             <state relative-caret-position="299">
               <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
 >>>>>>> Implementing button component
+=======
+            <state relative-caret-position="207">
+              <caret line="105" column="30" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="30" />
+>>>>>>> Fix mistakes
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -135,6 +144,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,11 +158,14 @@
 =======
         <entry file="file://$PROJECT_DIR$/src/components/hoc/Auxiliary/Auxiliary.js">
 =======
+=======
+      <file pinned="false" current-in-tab="true">
+>>>>>>> Fix mistakes
         <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
 >>>>>>> Implementing button component
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="207">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -371,9 +384,12 @@
         <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
-        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
         <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
+<<<<<<< HEAD
 >>>>>>> Implementing button component
+=======
+        <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
+>>>>>>> Fix mistakes
       </list>
     </option>
   </component>
@@ -463,6 +479,7 @@
               <item name="burger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="burger" type="b2602c69:ProjectViewProjectNode" />
               <item name="burger" type="462c0819:PsiDirectoryNode" />
@@ -522,6 +539,8 @@
             </path>
 =======
 >>>>>>> Added configuration for windows
+=======
+>>>>>>> Fix mistakes
           </expand>
           <select />
         </subPane>
@@ -576,6 +595,7 @@
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="23743000" />
   </component>
   <component name="ToolWindowManager">
@@ -588,6 +608,9 @@
 >>>>>>> Added configuration for windows
 =======
     <option name="totallyTimeSpent" value="26028000" />
+=======
+    <option name="totallyTimeSpent" value="26478000" />
+>>>>>>> Fix mistakes
   </component>
   <component name="ToolWindowManager">
     <frame x="978" y="0" width="937" height="1080" extended-state="0" />
@@ -965,22 +988,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
+    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="105" column="30" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="30" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="109" column="22" lean-forward="true" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        <state relative-caret-position="207">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
 >>>>>>> Implementing button component
         </state>
