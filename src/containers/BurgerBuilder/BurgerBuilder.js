@@ -40,43 +40,6 @@ class BurgerBuilder extends Component {
     return sum > 0;
   };
 
-  // addIngredientHandler = type => {
-  //   const oldCount = this.state.ingredients[type];
-  //   const updatedCount = oldCount + 1;
-  //   const updatedIngredients = {
-  //     ...this.state.ingredients
-  //   };
-  //   updatedIngredients[type] = updatedCount;
-  //   const priceAddition = INGRIDIENT_PRICIES[type];
-  //   const oldPrice = this.state.totalPrice;
-  //   const newPrice = oldPrice + priceAddition;
-  //   this.setState({
-  //     totalPrice: newPrice,
-  //     ingredients: updatedIngredients
-  //   });
-  //   this.updatePurchasableState(updatedIngredients);
-  // };
-
-  // removeIngredientHandler = type => {
-  //   const oldCount = this.state.ingredients[type];
-  //   if (oldCount <= 0) {
-  //     return;
-  //   }
-  //   const updatedCount = oldCount - 1;
-  //   const updatedIngredients = {
-  //     ...this.state.ingredients
-  //   };
-  //   updatedIngredients[type] = updatedCount;
-  //   const priceDeduction = INGRIDIENT_PRICIES[type];
-  //   const oldPrice = this.state.totalPrice;
-  //   const newPrice = oldPrice - priceDeduction;
-  //   this.setState({
-  //     totalPrice: newPrice,
-  //     ingredients: updatedIngredients
-  //   });
-  //   this.updatePurchasableState(updatedIngredients);
-  // };
-
   purchaseHandler = () => {
     this.setState({
       purchasing: true
@@ -88,21 +51,9 @@ class BurgerBuilder extends Component {
       purchasing: false
     });
   };
+  
   purchaseContinueHandler = () => {
-    const queryParams = [];
-    for (let i in this.state.ingredients) {
-      queryParams.push(
-        encodeURIComponent(i) +
-          "=" +
-          encodeURIComponent(this.state.ingredients[i])
-      );
-    }
-    queryParams.push("price=" + this.state.totalPrice);
-    const queryString = queryParams.join("&");
-    this.props.history.push({
-      pathname: "/checkout",
-      search: "?" + queryString
-    });
+    this.props.history.push("/checkout");
   };
 
   render() {
