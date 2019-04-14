@@ -8,7 +8,7 @@ import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
 import Auxiliary from "../../hoc/Auxiliary/Auxiliary";
 import Spinner from "../../components/UI/Spinner/Spinner";
 import withErrorHandler from "../../hoc/withErrorHandler/withErrorHandler";
-import * as actionTypes from "../../store/actions";
+import * as actionTypes from "../../store/actions/actionsTypes";
 
 class BurgerBuilder extends Component {
   state = {
@@ -51,7 +51,7 @@ class BurgerBuilder extends Component {
       purchasing: false
     });
   };
-  
+
   purchaseContinueHandler = () => {
     this.props.history.push("/checkout");
   };

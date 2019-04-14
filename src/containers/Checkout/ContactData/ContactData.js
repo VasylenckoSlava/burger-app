@@ -200,7 +200,7 @@ class ContactData extends Component {
 const mapStateToProps = (state) => ({
   ings: state.ingredients,
   price: state.totalPrice
-})
+});
 
 
 export default connect(mapStateToProps)(ContactData);
