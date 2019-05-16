@@ -1,21 +1,17 @@
 import * as actionTypes from "../actions/actionsTypes";
 
 const initialState = {
-  ingredients: {
-    salad: 0,
-    bacon: 0,
-    cheese: 0,
-    meat: 0
-  },
-  totalPrice: 4
+  ingredients: null,
+  totalPrice: 4,
+  error: false
 };
 
 const INGRIDIENT_PRICIES = {
-    salad: 0.5,
-    bacon: 0.7,
-    cheese: 0.4,
-    meat: 1.3
-  };
+  salad: 0.5,
+  bacon: 0.7,
+  cheese: 0.4,
+  meat: 1.3
+};
 
 const burgerBuilder = (state = initialState, action) => {
   switch (action.type) {
@@ -36,6 +32,17 @@ const burgerBuilder = (state = initialState, action) => {
           [action.ingredientName]: state.ingredients[action.ingredientName] - 1
         },
         totalPrice: state.totalPrice - INGRIDIENT_PRICIES[action.ingredientName]
+      };
+    case actionTypes.SET_INGREDIENT:
+      return {
+        ...state,
+        ingredients: action.ingredients,
+        error: false
+      };
+    case actionTypes.FETCH_INGREDIENT_FAILED:
+      return {
+        ...state,
+        error: true
       };
     default:
       return state;
